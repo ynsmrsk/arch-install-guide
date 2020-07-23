@@ -95,9 +95,9 @@ dialog wpa_supplicant network-manager-applet
 pulseaudio alsa-utils volumeicon
 grub os-prober intel-ucode
 sudo grep make gcc linux-headers
-kitty vifm curl
-chromium feh gcolor2 xclip
-libinput xorg-server xorg-xinit xorg-setxkbmap hsetroot unclutter
+kitty vifm curl xclip unclutter libinput
+chromium feh gcolor2 
+xorg-server xorg-xinit xorg-setxkbmap 
 </pre>
 
 Install grub on new system
@@ -130,9 +130,8 @@ $ cd ..
 $ rm -rf yay
 $ cd ~/
 <hr>
-$ i3-gaps-rounded-git
-$ picom-ibhagwan-git
-$ popcorn-git
+$ yay -S i3-gaps-rounded-git
+$ yay -S picom-ibhagwan-git
 </pre>
 
 Exit the chroot session
